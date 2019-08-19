@@ -197,7 +197,7 @@ mv $FILE_PATH/sa* $FILE_PATH/SAR/.
 mv $FILE_PATH/all_tomcat_version.txt $FILE_PATH/openliberoffice.txt $FILE_PATH/ping.txt  $FILE_PATH/SERVICE/.
 rm -f /Uploads/test1.img
 
-sitename=`cat /eOffice/eofficev6/connection/config.php  | grep url | head -1 | cut -d ';' -f 1 | cut -d ',' -f 2 | cut -d '"' -f 2 | cut -d '.' -f 1`
+sitename=`cat /eOffice/eofficev6/connection/config.php  | grep url | head -1 | cut -d ';' -f 1 | cut -d ',' -f 2 | cut -d '"' -f 2`
 
 rm -f /Uploads/test1.img
 
