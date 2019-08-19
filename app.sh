@@ -199,8 +199,8 @@ rm -f /Uploads/test1.img
 
 sitename=`cat /eOffice/eofficev6/connection/config.php  | grep url | head -1 | cut -d ';' -f 1 | cut -d ',' -f 2 | cut -d '"' -f 2 | cut -d '.' -f 1`
 
+rm -f /Uploads/test1.img
 
-sitenmae=``
 tar -cvpzf /eOffice/SOS_APP_REPORT_"$sitename"_"$date1".tar.gz  -C $FILE_PATH .
 
 rm -rf $FILE_PATH/*
